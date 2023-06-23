@@ -1,0 +1,64 @@
+.card{
+    border: 1px  solid lightblue;
+    margin: 200px auto;
+    width: 1000px;
+    height: 300px;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+.card-img {
+        width: 100%;
+        height: 100%;
+        
+}
+.centered-head {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    text-align: center;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px; 
+  }
+  .centered {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-weight:100;
+    text-align: center;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+  }
+  .help{
+        position: absolute;
+        margin: 10px 15px;
+        padding: 10px;
+        font-weight: 300;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        bottom: 200px;
+        left: 350px;
+        width: 600px;
+  }
+  .card-safe{
+    position: absolute;
+        margin: 10px 15px;
+        padding: 10px;
+        font-weight: 300;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        bottom: 200px;
+        left: 380px;
+        width: 600px;
+    float: left !important;
+    width: 25px;
+    height: auto;
+    margin: 12px 18px;
+    padding: 5px
+    /* font-position:10px; */
+    
+}
